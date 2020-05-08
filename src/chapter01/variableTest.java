@@ -19,9 +19,14 @@ public class variableTest {
 		float f = 3.14f;     //4byte
 		double d = 3.14;     //8byte
 		
-		//문자
+		/*
+		 * char 형
+		 */
 		char c1 = 'A';        //2byte
 		char c2 = '안';
+		char c3 = 'A';
+		int i3 = 65;
+		System.out.println(i3-c3);
 		
 		//부울대수
 		boolean boo = true;   //1byte
